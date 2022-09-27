@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Subscripciones | Mi Proyecto</title>    
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- icono -->
+  <link rel="icon" href="img/pngwing.com (1).png"> 
+
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+  </head>
+  <body>
+
+    <main>
+
+      <div class="container mb-5">
+
+<!-- Header -->
+<header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Colo-Colo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>                    
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="historia.html">Historia</a>                    
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="deportes.html">Deportes</a>                    
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a> 
+          </li>
+
+        </ul>
+
+        <div class="btn-group btodt" role="group" aria-label="Basic example">                 
+          <button type="button" onclick="window.open('https://colocolo.cl/','_blank')" class="btn btn-danger">Pagina Oficial</button>                 
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+        <!-- Contacto (Introducción) --> 
+        <div class="row mb-5">
+          <div class="col-md-12 text-center text-white">
+            <h1>Subscribirse</h1>
+            <p class="mt-3">
+              Registrate para recibir las ultimas noticias de Colo-Colo
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Formulario --> 
+          <div class="col-md-6">
+            <h4 class="mb-4 text-white">Formulario</h4>
+            <form>
+              <div class="mb-3 text-white">
+                <label for="nya" class="form-label txt_negrita">Nombres y Apellidos</label>
+                <input type="text" class="form-control" id="nya" aria-describedby="nyaHelp" required>
+                <div id="nyaHelp" class="form-text text-white-50">Ejemplo: Esteban Efrain Paredes</div>
+              </div>
+              <div class="mb-3 text-white">
+                <label for="email" class="form-label txt_negrita">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp text-white" class="form-text text-white-50">Ejemplo: miemail@mail.com</div>
+              </div>
+              
+              <div class="mb-3 text-white">
+                <label for="mensaje" class="form-label txt_negrita">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>               
+              </div>
+              <button type="submit" class="btn btn-dark ">Aceptar</button>
+            </form>
+          </div> 
+
+          <div class="col-md-6"> 
+
+            <!-- Datos de Contacto -->
+            <div class="row">
+
+              <h4 class="mb-4 text-white">Datos de Contacto</h4>
+              <div class="mb-3 text-white">
+                <img src="iconos/house-door.svg" alt="Dirección" width="32" height="32"> Marathon 5300, Macul, Región Metropolitana
+              </div>
+              <div class="mb-3 text-white">
+                <img src="iconos/telephone-forward-fill.svg" alt="Teléfono" width="32" height="32"> 444 4444 | 999 999 999 
+              </div>
+              <div class="mb-3 text-white">
+                <img src="iconos/envelope.svg" alt="Email" width="32" height="32"> mail@miproyecto.com 
+              </div>
+
+            </div> 
+
+            <!-- Redes Sociales -->
+            <div class="row mt-4 text-white">
+
+              <h4>Redes Sociales</h4> 
+              <ul class="lrs">
+                <li>
+                  <a href="https://twitter.com/ColoColo">
+                    <img src="iconos/twitter.svg" title="Twitter" alt="Twitter" width="32" height="32">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://es-la.facebook.com/colocolo/">
+                    <img src="iconos/facebook.svg" title="Facebook" alt="Facebook" width="32" height="32">
+                  </a>
+                </li> 
+                <li>
+                  <a href="https://www.youtube.com/channel/UC8sRB0-aqDg_Gb08md1bQKg">
+                    <img src="iconos/youtube.svg" title="YouTube" alt="YouTube" width="32" height="32">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/colocolooficial/?hl=es">
+                    <img src="iconos/instagram.svg" title="Instagram" alt="Instagram" width="32" height="32">
+                  </a>
+                </li>
+                         
+              </ul>
+
+            </div>             
+
+          </div>
+
+        </div> 
+
+
+        
+        </div>
+
+      </div>
+
+
+    </main>
+
+       <!-- Footer -->  
+       <footer class="footer mt-auto py-3 bg-light text-center bg-dark">
+      
+        <div class="container">
+          <span class=" text-white-50">Colo-Colo © <script>document.write(new Date().getFullYear())</script> </span>
+        </div>
+        
+      </footer>
+
+     <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>

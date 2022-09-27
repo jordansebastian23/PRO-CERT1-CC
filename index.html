@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Home | Mi Proyecto</title>    
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- icono -->
+    <link rel="icon" href="img/pngwing.com (1).png"> 
+
+    <!-- Hoja de Estilos Personalizada (estilos.css) --> 
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+  </head>
+
+    
+
+    <main>
+
+      <div class="container mb-5">
+
+
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">Colo-Colo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="historia.html">Historia</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="deportes.html">Deportes</a>                    
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a> 
+                  </li>
+
+                </ul>
+
+                <div class="btn-group btodt" role="group" aria-label="Basic example">                 
+                  <button type="button" onclick="window.open('https://colocolo.cl/','_blank')" class="btn btn-danger">Pagina Oficial</button>                 
+                </div>
+
+                
+                
+              </div>
+            </div>
+          </nav>
+
+        </header>
+        <body Style="background-color:#494747">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Hola AlboAdicto!</strong> Acabas de entrar a la mejor pagina de Colo-Colo.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+
+          <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <!-- Position it: -->
+            <!-- - `.toast-container` for spacing between toasts -->
+            <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
+            <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
+            <div class="toast-container position-absolute top-0 end-0 p-3">
+          
+              <!-- Then put toasts within -->
+              <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-muted">just now</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  See? Just like this.
+                </div>
+              </div>
+          
+              <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-muted">2 seconds ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Heads up, toasts will stack automatically
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Carousel --> 
+        <div class="row">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators border-white">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active border-white">
+                <a href="https://colocolo.cl/equipo" target="_blank" title="Plantel de honor masculino">
+                  <img src="img/306309746_640686627413262_6525856275096218594_n.jpg" class="d-block w-100" alt="Plantel de honor masculino">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://colocolo.cl/#noticias" target="_blank" title="Ultimo partido">
+                  <img src="img/306697972_644764123672179_8972013998634288669_n.jpg" class="d-block w-100" alt="Ultimo partido">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="https://colocolo.cl/equipo" target="_blank" title="Plantel de honor masculino">
+                  <img src="img/307099883_644763870338871_953890629143539852_n.jpg" class="d-block w-100" alt="Plantel de honor masculino">
+                </a>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>      
+        
+        <!-- Cards --> 
+        <div class="row">
+          <div class="row row-cols-1 text-center mt-5 mb-3 text-white">
+            <h2>Informacion</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                <div class="card-header py-3 text-white bg-dark border-dark">
+                  <h4 class="my-0 fw-normal">Historia</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>▸Colo-Colo se funda el día 19 de abril de 1925.</li>
+                    <li>▸Colo-colo y el luto eterno</li>
+                    <li>▸El estadio propio</li>
+                    <li>▸La copa de 1991</li>
+                  </ul>
+                  <a  class="w-100 btn btn-lg btn-dark" href="historia.html">Ver historia</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                <div class="card-header py-3 text-white bg-dark border-dark">
+                  <h4 class="my-0 fw-normal">Deportes</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>▸Futbol</li>
+                    <li>▸Basquetbol</li>
+                    <li>▸Patin carrera</li>
+                    <li>▸Voleyball</li>
+                  </ul>
+                  <a  class="w-100 btn btn-lg btn-dark" href="deportes.html">Ver Jugadores</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-dark">
+                <div class="card-header py-3 text-white bg-dark border-dark">
+                  <h4 class="my-0 fw-normal">Contacto</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>▸Instagram: Colo-Colo</li>
+
+
+                    <li>▸Marathon 5300, Macul, Región Metropolitana</li>
+                    <li>▸+56987270870</li>
+                    <li>▸Jordan.navarrete@usm.cl</li>
+                  </ul>
+                  <a  class="w-100 btn btn-lg btn-dark" href="contacto.html">Ver contacto</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+
+       
+
+      </div>
+      <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+    </main>
+
+    <!-- Footer -->  
+    <footer class="footer mt-auto py-3 bg-light text-center bg-dark">
+      
+      <div class="container">
+        <span class=" text-white-50">Colo-Colo © <script>document.write(new Date().getFullYear())</script> </span>
+      </div>
+      
+    </footer>
+
+     <!-- Archivo JS Bootstrap 5 -->  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/arriba.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      
+  </body>
+</html>
